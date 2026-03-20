@@ -1,0 +1,9 @@
+=== INJECT (no system message) ===
+Input messages: 1
+Output messages: 2
+First message role: system
+Contains English: True
+System content: You are a highly capable AI assistant. IMPORTANT: Perform ALL reasoning, analysi...
+User preserved: Halo, apa kabar?
+
+PASS: System message prepended with English reasoning instruction

@@ -1,0 +1,12 @@
+=== MERGE EXISTING SYSTEM ===
+Output messages: 2
+Original content preserved: True
+Meta-instructions merged: True
+Merge format correct: True
+
+System message content:
+You are a helpful assistant for Indonesian users.
+
+You are a highly capable AI assistant. IMPORTANT: Perform ALL reasoning, analysis, and thinking in English for maximum accuracy. After completing your reasoning in English, provide your final response in the language the user expects. Structure your thinking: 1) Understand the request 2) Reason through the problem in English 3) Formulate your response 4) Deliver in the expected language
+
+PASS: Existing system message merged (not overwritten)

@@ -1,0 +1,7 @@
+=== IMMUTABILITY ===
+Original list length unchanged: True (1 == 1)
+Original content unchanged: True
+Result is different object: True
+Original message not in result: False
+
+PASS: Original messages list and objects are never mutated
