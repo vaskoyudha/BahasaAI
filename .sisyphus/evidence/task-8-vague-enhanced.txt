@@ -1,0 +1,3 @@
+input: jelaskan AI
+output: Jelaskan AI dalam 5 poin: definisi, sejarah singkat, contoh aplikasi, risiko, dan rekomendasi pembelajaran lanjutan.
+llm_calls: 1

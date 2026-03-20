@@ -61,3 +61,11 @@
 - For mixed preserved content, placeholder numbering follows extraction order from fenced, inline, then URL passes
 - If normalized placeholder text has no translatable content (only placeholders/whitespace), return original text unchanged
 - Add translator quality logs: input length, output length, and language pair for translate and translate_with_preserved_code
+
+## 2026-03-21 — Task 8: Auto Prompt Enhancer
+- AutoPromptEnhancer.enhance() is async and uses ProviderClient via AsyncMock-compatible cast pattern
+- Empty prompt short-circuits to empty string and never calls provider
+- Vagueness scoring combines prompt length, word count, specificity signals (numbers/dates/names/structure), and vague EN/ID phrase patterns
+- Enhancement threshold is score > 0.6; specific prompts return unchanged with no LLM call
+- Enhancement uses fixed system prompt with language token from Language.value and returns stripped CompletionResponse.content
+- Always log original prompt, resulting prompt, and was_enhanced decision for observability

@@ -1,0 +1,4 @@
+short(AI?): 1.0
+english(what is machine learning): 1.0
+indonesian(jelaskan tentang ekonomi): 1.0
+long(detailed 50+ words): 0.0
