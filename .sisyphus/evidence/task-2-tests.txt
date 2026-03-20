@@ -1,0 +1,44 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.15, pytest-9.0.2, pluggy-1.6.0 -- /home/vascosera/Documents/Github/BahasaAI/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/vascosera/Documents/Github/BahasaAI
+configfile: pyproject.toml
+plugins: asyncio-1.3.0, anyio-4.12.1, respx-0.22.0, cov-7.0.0
+asyncio: mode=Mode.AUTO, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 33 items
+
+tests/unit/test_types.py::TestLanguageEnum::test_language_values PASSED  [  3%]
+tests/unit/test_types.py::TestLanguageEnum::test_language_members PASSED [  6%]
+tests/unit/test_types.py::TestLanguageEnum::test_language_iteration PASSED [  9%]
+tests/unit/test_types.py::TestPipelineModeEnum::test_pipeline_mode_values PASSED [ 12%]
+tests/unit/test_types.py::TestPipelineModeEnum::test_pipeline_mode_members PASSED [ 15%]
+tests/unit/test_types.py::TestMessageDataclass::test_message_creation PASSED [ 18%]
+tests/unit/test_types.py::TestMessageDataclass::test_message_with_name PASSED [ 21%]
+tests/unit/test_types.py::TestMessageDataclass::test_message_default_name PASSED [ 24%]
+tests/unit/test_types.py::TestPipelineStepDataclass::test_pipeline_step_creation PASSED [ 27%]
+tests/unit/test_types.py::TestPipelineStepDataclass::test_pipeline_step_metadata_default PASSED [ 30%]
+tests/unit/test_types.py::TestPipelineStepDataclass::test_pipeline_step_metadata_custom PASSED [ 33%]
+tests/unit/test_types.py::TestPipelineTraceDataclass::test_pipeline_trace_creation PASSED [ 36%]
+tests/unit/test_types.py::TestPipelineTraceDataclass::test_pipeline_trace_cache_hit_default PASSED [ 39%]
+tests/unit/test_types.py::TestPipelineTraceDataclass::test_pipeline_trace_cache_hit_custom PASSED [ 42%]
+tests/unit/test_types.py::TestCompletionRequestDataclass::test_completion_request_required PASSED [ 45%]
+tests/unit/test_types.py::TestCompletionRequestDataclass::test_completion_request_defaults PASSED [ 48%]
+tests/unit/test_types.py::TestCompletionRequestDataclass::test_completion_request_custom PASSED [ 51%]
+tests/unit/test_types.py::TestCompletionResponseDataclass::test_completion_response_creation PASSED [ 54%]
+tests/unit/test_types.py::TestCompletionResponseDataclass::test_completion_response_without_trace PASSED [ 57%]
+tests/unit/test_types.py::TestStreamChunkDataclass::test_stream_chunk_minimal PASSED [ 60%]
+tests/unit/test_types.py::TestStreamChunkDataclass::test_stream_chunk_with_step_name PASSED [ 63%]
+tests/unit/test_types.py::TestStreamChunkDataclass::test_stream_chunk_final PASSED [ 66%]
+tests/unit/test_types.py::TestLanguageDetectorProtocol::test_language_detector_protocol_runtime_checkable PASSED [ 69%]
+tests/unit/test_types.py::TestLanguageDetectorProtocol::test_language_detector_protocol_missing_method PASSED [ 72%]
+tests/unit/test_types.py::TestTranslatorProtocol::test_translator_protocol_runtime_checkable PASSED [ 75%]
+tests/unit/test_types.py::TestTranslatorProtocol::test_translator_protocol_missing_method PASSED [ 78%]
+tests/unit/test_types.py::TestPromptEnhancerProtocol::test_prompt_enhancer_protocol_runtime_checkable PASSED [ 81%]
+tests/unit/test_types.py::TestCulturalContextProviderProtocol::test_cultural_context_provider_runtime_checkable PASSED [ 84%]
+tests/unit/test_types.py::TestMetaInstructorProtocol::test_meta_instructor_protocol_runtime_checkable PASSED [ 87%]
+tests/unit/test_types.py::TestProviderClientProtocol::test_provider_client_protocol_runtime_checkable PASSED [ 90%]
+tests/unit/test_types.py::TestCacheProtocol::test_cache_protocol_runtime_checkable PASSED [ 93%]
+tests/unit/test_types.py::TestIntegration::test_full_completion_workflow PASSED [ 96%]
+tests/unit/test_types.py::TestIntegration::test_streaming_workflow PASSED [100%]
+
+============================== 33 passed in 0.06s ==============================

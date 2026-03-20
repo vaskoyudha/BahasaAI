@@ -1,0 +1,3 @@
+Language values: ['indonesian', 'english', 'mixed', 'unknown']
+Request model: gpt-4o
+Mode default: full

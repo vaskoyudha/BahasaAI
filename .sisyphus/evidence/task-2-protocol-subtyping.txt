@@ -1,0 +1,1 @@
+Protocol structural subtyping works

@@ -1,0 +1,48 @@
+==== TASK 1 EVIDENCE: Project Scaffolding + uv + pyproject.toml ====
+
+TIMESTAMP: 2026-03-20
+
+=== VERIFICATION RESULTS ===
+
+1. Directory Structure:
+   ✓ src/bahasaai/
+   ✓ src/bahasaai/core/
+   ✓ src/bahasaai/api/
+   ✓ src/bahasaai/ui/
+   ✓ tests/unit/
+   ✓ tests/integration/
+   ✓ benchmarks/
+   ✓ examples/
+
+2. Files Created:
+   ✓ pyproject.toml - with all dependencies and tool configs
+   ✓ src/bahasaai/__init__.py - contains __version__ = "0.1.0"
+   ✓ src/bahasaai/core/__init__.py
+   ✓ src/bahasaai/api/__init__.py
+   ✓ src/bahasaai/ui/__init__.py
+   ✓ tests/__init__.py
+   ✓ tests/unit/__init__.py
+   ✓ tests/integration/__init__.py
+   ✓ tests/unit/test_smoke.py
+
+3. uv sync Output:
+   Using CPython 3.11.15
+   Creating virtual environment at: .venv
+   Resolved 93 packages in 2.11s
+   Installed 89 packages in 114ms
+   Final check: Checked 89 packages in 1ms
+   STATUS: ✓ SUCCESS
+
+4. pytest Results:
+   Command: uv run pytest tests/unit/test_smoke.py -v
+   Output: 1 passed in 0.02s
+   STATUS: ✓ 1 PASSED
+
+5. ruff Check Results:
+   Command: uv run ruff check src/ tests/
+   Output: All checks passed!
+   STATUS: ✓ 0 ERRORS
+
+=== CONCLUSION ===
+All expected outcomes achieved.
+Ready for git commit and push.
