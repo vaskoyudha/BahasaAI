@@ -1,0 +1,10 @@
+Task 12 Evidence — Passthrough and Suite Health
+
+Command:
+uv run pytest tests/unit/ -v
+
+Result:
+- collected 162 items
+- all tests passed including pipeline passthrough/fast/full coverage
+
+Summary: 162 passed, 0 failed.

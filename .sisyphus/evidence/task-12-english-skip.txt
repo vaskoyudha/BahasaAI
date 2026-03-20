@@ -1,0 +1,11 @@
+Task 12 Evidence — English Skip Translation + Lint
+
+Commands:
+1) uv run pytest tests/unit/test_pipeline.py -v
+2) uv run ruff check src/ tests/
+
+Result:
+- test_english_skip_translation PASSED
+- Ruff: All checks passed
+
+Summary: English input path skips translation as tested; lint clean.

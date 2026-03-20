@@ -1,0 +1,11 @@
+Task 12 Evidence — Graceful Degradation
+
+Command:
+uv run pytest tests/unit/test_pipeline.py -v
+
+Relevant passing tests:
+- test_graceful_degradation_translation
+- test_graceful_degradation_enhancer
+- test_graceful_degradation_cultural
+
+Summary: Pipeline continues on translation/enhancer/cultural failures and still calls provider.

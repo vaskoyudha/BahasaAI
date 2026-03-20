@@ -1,0 +1,19 @@
+Task 12 Evidence — Full Pipeline
+
+Command:
+uv run pytest tests/unit/test_pipeline.py -v
+
+Result:
+- collected 10 items
+- test_full_pipeline_indonesian PASSED
+- test_passthrough_mode PASSED
+- test_fast_mode PASSED
+- test_english_skip_translation PASSED
+- test_cache_hit_returns_cached PASSED
+- test_graceful_degradation_translation PASSED
+- test_graceful_degradation_enhancer PASSED
+- test_graceful_degradation_cultural PASSED
+- test_pipeline_trace_in_debug_mode PASSED
+- test_stream_yields_chunks PASSED
+
+Summary: 10 passed.
