@@ -1,0 +1,2 @@
+Result: indonesian
+PASS: Indonesian detected

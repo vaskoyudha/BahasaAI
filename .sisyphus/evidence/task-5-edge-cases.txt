@@ -1,0 +1,7 @@
+Empty string: unknown — PASS
+Numbers only: unknown — PASS
+Single ID word: indonesian — PASS
+Single EN word: english — PASS
+Case insensitive: indonesian — PASS
+
+ALL EDGE CASES PASSED

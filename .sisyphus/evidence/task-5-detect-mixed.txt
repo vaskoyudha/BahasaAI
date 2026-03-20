@@ -1,0 +1,2 @@
+Result: mixed
+PASS: Mixed detected

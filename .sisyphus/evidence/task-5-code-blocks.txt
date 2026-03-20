@@ -1,0 +1,2 @@
+Result: indonesian
+PASS: Code blocks stripped, Indonesian detected
