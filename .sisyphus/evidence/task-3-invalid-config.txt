@@ -1,0 +1,1 @@
+Correctly raised ValueError: api_port must be between 1-65535, got 99999
